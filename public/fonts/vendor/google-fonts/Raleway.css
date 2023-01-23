@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/vendor/google-fonts/Raleway_400_normal.eot'); /* {{embedded-opentype-gf-url}} */
+    src: url('/fonts/vendor/google-fonts/Raleway_400_normal.eot?#iefix') format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url('/fonts/vendor/google-fonts/Raleway_400_normal.woff') format('woff'), /* http://fonts.gstatic.com/s/raleway/v12/IczWvq5y_Cwwv_rBjOtT0w.woff */
+        url('/fonts/vendor/google-fonts/Raleway_400_normal.ttf') format('truetype'), /* http://fonts.gstatic.com/s/raleway/v12/UAnF6lSK1JNc1tqTiG8pNALUuEpTyoUstqEm5AMlJo4.ttf */
+        url('/fonts/vendor/google-fonts/Raleway_400_normal.svg#Raleway_400_normal') format('svg'); /* http://fonts.gstatic.com/l/font?kit=IP_NSg73bUZGuyb3zF6qcQ&skey=30a27f2564731c64&v=v12#Raleway */
+}

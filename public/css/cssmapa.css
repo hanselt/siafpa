@@ -1,0 +1,18 @@
+#iw-container  .iw-title {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 10px;
+   background-color: #433d3a;
+   color: white;
+   margin: 1px;
+   border-radius: 2px 2px 0 0; /* In accordance with the rounding of the default infowindow corners. */
+}
+#iw-container {
+	color: #433d3a;
+}
+
+
+
+
+

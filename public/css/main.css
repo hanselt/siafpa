@@ -1,0 +1,676 @@
+.widget_header h4 {
+    font-size: 1.4rem;
+    text-align: right;
+    color: white !important;
+}
+
+.labelsDist{
+  color: white;
+  text-shadow:
+   -1px -1px 0 #003333,  
+    1px -1px 0 #003333,
+    -1px 1px 0 #003333,
+     1px 1px 0 #003333;
+  font-size: 10px
+}
+.labelsProv{
+  color: white;
+  text-shadow:
+   -1px -1px 0 #660066,  
+    1px -1px 0 #660066,
+    -1px 1px 0 #660066,
+     1px 1px 0 #660066;
+  font-size: 13px
+}
+.labelsCartas{
+  color: white;
+  text-shadow:
+   -1px -1px 0 #DC8400,  
+    1px -1px 0 #DC8400,
+    -1px 1px 0 #DC8400,
+     1px 1px 0 #DC8400;
+  font-size: 10px
+}
+.labelsZ18{
+  color: white;
+  text-shadow:
+   -1px -1px 0 #CC0000,  
+    1px -1px 0 #CC0000,
+    -1px 1px 0 #CC0000,
+     1px 1px 0 #CC0000;
+  font-size: 9px
+}
+.labelsZ19{
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000099,  
+    1px -1px 0 #000099,
+    -1px 1px 0 #000099,
+     1px 1px 0 #000099;
+  font-size: 9px
+}
+
+@media screen and (max-width: 40em) {
+    .js .mainmenu {
+        display:none;
+    }
+    
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
+
+/* inicio contenedor para mapas */
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 56%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+/* inicio contenedor para mapas */
+
+.tabs_portada > ul.nav-tabs>li {
+    width: 25%;
+}
+.tabs_portada .nav-tabs>li > a > img{
+    width: 100%;
+}
+.tabs_portada .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 1px 0px;
+    border: 0px;
+}
+.login_box {
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #453934;
+}
+.box_noticias_portada {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+}
+ul.noticias_portada {
+    padding: 0;
+}
+
+li.single_noticia_portada {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* noticias portada */
+
+.imagen_noticia_portada {
+    width: 45%;
+    float: right;
+}
+.imagen_noticia_portada img{
+    width:100%
+}
+.desc_noticia_portada {
+    font-size: 1.1rem;
+}
+.body_noticia_portada {
+    margin-bottom: 15px;
+}
+.footer {
+    font-size: 1rem;
+    color: grey;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+.copyright_text {
+    margin: 30px 0;
+}
+
+.marco img {
+    width: 100%;
+}
+
+/* filtro */
+
+.tools_filtro {
+    margin: 15px 0;
+    background-color: #fdfdfd;
+    border-top: 1px solid #efefef;
+    padding: 5px;
+    border-bottom: 1px solid #efefef;
+}
+.filtro_size {
+    font-size: 1rem;
+}
+.subir_kml_box {
+    padding: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.single_result {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+        transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.single_result:hover {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* ebd filtro*/
+
+
+/* breadcruymbs */
+ul.breadcrumb {
+    padding: 0px 5px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: rgba(245, 245, 245, 0.37);
+    border-radius: 4px;
+}
+
+ul.breadcrumb a {
+    font-size: 1rem;
+}
+ul.breadcrumb>.active {
+    font-size: 1rem;
+}
+ul.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "|" !important;
+}
+/* fin breadcruymbs */
+
+.resultados_archivo h5 {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+.expand_icons {
+    margin-bottom: 15px;
+}
+.result_image {
+    float: left;
+}
+.result_image img{
+    width:100%;
+}
+.result_image {
+    margin-right: 10px;
+    width: 30%;
+    float: left;
+}
+.resultados.active {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.resultados_ocultos {
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+}
+.oculto {
+    width: 0;
+    display: none
+}
+.resultados_archivo {
+    overflow-y: auto;
+    height: 476px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.adicionales {
+    margin: 30px 0;
+}
+
+/* vide container  */
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+/* video container */ 
+
+
+.featured_image img{
+    width: 100%;
+    height: auto;;
+}
+.borde_sombra {
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+.featured_image {
+    margin-bottom: 15px;
+}
+ul.horarios li {
+    list-style: none;
+    margin-left: -40px;
+    padding: 0;
+}
+.sidebar h4 {
+    font-weight: bold;
+}
+.arqueologo_image {
+    width: 20%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.arqueologo_image img {
+    width: 100%;
+}
+.adicionales ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.adicionales h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.single_arqueologo_result {
+    margin-bottom: 15px;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.single_arqueologo_result:hover {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+.photo_arqueologo img {
+    width: 100%;
+}
+.buscador_portada {
+    margin-top: 110px;
+    padding: 15px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.73);
+    right: 15px;
+    top: 0;
+    position: absolute;
+}
+.tabs_mapa {
+    background-color: rgba(255, 255, 255, 0.79);
+}
+.tabs_mapa.nav-tabs>li {
+    width: 20%;
+}
+.masthead {
+    align-items: center;
+    display: flex;
+}
+.banner1 {
+    margin-left: 45px;
+}
+
+.box_acceder img    {
+    width: 100%;
+}
+
+.acceder_desc {
+    color: #453934;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.action-btn {
+    margin-bottom: 15px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #453934;
+}
+.desc_action {
+    font-size: 1.2rem;
+}
+
+.action-btn i {
+    font-size: 4rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.panel-default>.panel-heading {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white !important;
+    background: rgb(66,66,66);
+    background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(66,66,66,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%,rgba(66,66,66,1) 100%);
+    background: linear-gradient(to bottom, rgba(66,66,66,1) 0%,rgba(66,66,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb4301', endColorstr='#8b2e01',GradientType=0 );
+    border-color: rgb(66,66,66);
+}
+.panel-default {
+    border-radius: 8px !important;
+    border-color: rgb(66,66,66) !important;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: 0px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+    .banner1 {
+        display: none;
+    }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+    .banner1 {
+        display: none;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+    .container {
+        width: 1300px !important;
+    }
+    .degradado_head {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+99&0+0,1+74 */
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 99%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 74%,rgba(255,255,255,1) 99%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 74%,rgba(255,255,255,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    }
+    .nav-tabs {
+        background-color: #433d3a;
+        border-bottom: 1px solid #ddd;
+    }
+    .boton_mapa {
+        padding: 10px 30px 10px 30px;
+    }    
+    .more_button {
+        text-align: center;
+    }
+    .nav-tabs>li>a:hover {
+        border-color: transparent !important;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: #cb4301 !important;
+    }
+    .nav-tabs>li>a {
+        border: 0px solid transparent;
+        margin-right: 0px !important;
+    }
+    a.show_tools {
+        color: #fff;
+    }
+    a.show_tools h4 {
+        font-size: 15px;
+    }
+    li.tools {
+        padding: 0px;
+        text-align: center;
+    }
+    .tabs_mapa .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #cb4301 !important;
+        border-color: transparent;
+    }
+    li.tools > a > h4, li.tools > a > span {
+        color: white !important;
+    }
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #cb4301 !important;
+    }
+    ul.dropdown-menu.mega-dropdown-menu {
+        border: 0px;
+        color: white;
+        background-color: #cb4301;
+        width: 100%;
+        padding: 5px;
+    }
+    .ubigeo_select_tools {
+        color: black;
+    }
+    select.selectpicker {
+        width: 32%;
+        display: inline-block;
+        padding: 5px;
+        border: 0px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+    li.tools {
+        font-size: 12px;
+    }
+    li.tools h5 {
+        color: #ffffff !important;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ffea00;
+    }
+    button.full_with {
+        width: 100%;
+    }
+    .form-group {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .shadow {
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: white;
+        margin-bottom: 30px;
+        box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.09);
+    }
+    .login_menu li {
+        background-color: white !important;
+    }
+    .login_menu a {
+        padding: 5px 10px !important;
+    }
+    .login_menu li a{
+        color: #CB4301;
+    }
+    .login_menu li a:hover{
+        color: white;
+    }
+    .separator {
+        height: 30px;
+    }
+    .widget_header {
+        border-radius:5px;
+        padding: 1px 10px 1px 0px;
+        color: white;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb4301+0,8b2e01+100 */
+        background: rgb(203,67,1); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(203,67,1,1) 0%, rgba(139,46,1,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(203,67,1,1) 0%,rgba(139,46,1,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(203,67,1,1) 0%,rgba(139,46,1,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb4301', endColorstr='#8b2e01',GradientType=0 ); /* IE6-9 */
+    }
+    .widget_header h4 {
+        font-size: 1.4rem;
+        text-align: right;
+        color: white !important;
+    }
+    .box_widget ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .box_widget > ul > li > a > img {
+        float: left;
+        width: 30%;
+        margin: 0 15px 0 0px;
+    }
+    .desc_news {
+        font-size: 1.2rem;
+    }
+
+}
+ul.with_icon {
+    margin: 0;
+    padding: 0;
+}
+ul.with_icon li {
+    background: url(../img/list.png) no-repeat 3px 8px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+    vertical-align: middle;
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+.floating-menu {
+    font-family: sans-serif;
+    background: #433d3a;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+    bottom: 35%;
+}
+.floating-menu a, 
+.floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+}
+
+.labelWhite{
+    color: white;
+    font-weight: bold;
+}
